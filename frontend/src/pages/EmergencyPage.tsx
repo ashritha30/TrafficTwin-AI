@@ -1,0 +1,42 @@
+import Sidebar from "../components/Sidebar";
+import Topbar from "../components/Topbar";
+
+import EmergencyCard from "../components/EmergencyCard";
+import MapCard from "../components/MapCard";
+import NotificationPanel from "../components/NotificationPanel";
+
+export default function EmergencyPage() {
+  return (
+    <div className="flex bg-slate-950 text-white min-h-screen">
+
+      <Sidebar />
+
+      <div className="flex-1 p-6">
+
+        <Topbar />
+
+        <h1 className="text-4xl font-bold text-green-400 mt-8">
+          🚑 Emergency Response Center
+        </h1>
+
+        <p className="text-gray-400 mt-2">
+          Monitor emergency vehicles and incidents in real time.
+        </p>
+
+        <div className="mt-8">
+          <EmergencyCard />
+        </div>
+
+        <div className="mt-8">
+          <MapCard />
+        </div>
+
+        <div className="mt-8">
+          <NotificationPanel />
+        </div>
+
+      </div>
+
+    </div>
+  );
+}

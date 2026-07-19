@@ -1,0 +1,35 @@
+# =========================
+# Backend
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/generated_reports/
+backend/.env
+backend/firebase-key.json
+backend/*.log
+
+# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# =========================
+# Python
+# =========================
+*.pyc
+*.pyo
+__pycache__/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
