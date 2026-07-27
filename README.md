@@ -407,11 +407,39 @@ npm run dev
 
 # 📸 Screenshots
 
-Add screenshots inside
+## Login
 
-```
-screenshots/
-```
+![Login](screenshots/login.png)
+
+---
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## AI Assistant
+
+![AI Assistant](screenshots/ai-assistant.png)
+
+---
+
+## Report Generator
+
+![Report](screenshots/report.png)
+
+---
+
+## Interactive Map
+
+![Map](screenshots/map.png)
+
+---
+
+## Analytics Dashboard
+
+![Analytics](screenshots/analytics.png)
 
 Recommended screenshots
 
