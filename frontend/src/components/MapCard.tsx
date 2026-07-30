@@ -128,9 +128,10 @@ const handleMarkerClick = async (name: string) => {
         />
 
         {hotspots.map((spot, index) => (
-          <Marker
+        <Marker
   key={index}
   position={[spot.lat, spot.lng]}
+  icon={markerIcon}
   eventHandlers={{
     click: () => handleMarkerClick(spot.name),
   }}
