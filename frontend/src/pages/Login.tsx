@@ -17,9 +17,16 @@ export default function Login() {
       localStorage.setItem("name", data.name);
 
       navigate("/dashboard");
-    } catch {
-      alert("Invalid Email or Password");
-    }
+   } catch (error: any) {
+  console.log("Login Error:", error);
+  console.log("Response:", error.response);
+
+  alert(
+    error.response?.data?.detail ||
+    error.message ||
+    "Login Failed"
+  );
+}
   };
 
   return (

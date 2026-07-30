@@ -134,7 +134,7 @@ useEffect(() => {
 
           {/* Live Map */}
           <div className="xl:col-span-2">
-            <MapCard />
+            {/* <MapCard /> */}
           </div>
 
           {/* AI Assistant */}
